@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparkle Cleaning Pro Services - Sydney, Australia</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+        }
+        /* Custom colors based on the business card */
+        .bg-primary-green {
+            background-color: #1a4d3a; /* Darker green */
+        }
+        .text-primary-green {
+            color: #1a4d3a;
+        }
+        .bg-secondary-orange {
+            background-color: #f7931e; /* Orange */
+        }
+        .text-secondary-orange {
+            color: #f7931e;
+        }
+        .btn-book-now {
+            background-color: #f7931e;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px; /* Fully rounded */
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn-book-now:hover {
+            background-color: #e0841a; /* Slightly darker orange on hover */
+        }
+        .section-heading {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        .section-heading::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50%;
+            height: 4px;
+            background-color: #f7931e;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-primary-green text-white py-4 shadow-lg">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-2xl font-bold mb-4 md:mb-0">
+                Sparkle Cleaning Pro Services
+            </div>
+            <nav>
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-lg">
+                    <li><a href="#services" class="hover:text-secondary-orange transition duration-300">Services</a></li>
+                    <li><a href="#contact" class="hover:text-secondary-orange transition duration-300">Contact</a></li>
+                    <li><a href="#about" class="hover:text-secondary-orange transition duration-300">About Us</a></li>
+                    <li><a href="#" class="btn-book-now">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-white py-20 md:py-32 text-center shadow-md">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-primary-green mb-6 leading-tight">
+                Your Trusted Cleaning Partner in Sydney
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto">
+                Providing top-notch cleaning, painting, and handyman services for homes and businesses across Sydney, Australia.
+            </p>
+            <a href="#" class="btn-book-now text-xl md:text-2xl inline-block px-8 py-4">Get a Free Quote!</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 section-heading mx-auto">Our Services</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition duration-300">
+                    <svg class="w-16 h-16 text-secondary-orange mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    <h3 class="text-xl font-semibold text-primary-green mb-3">Residential & Commercial Cleaning</h3>
+                    <p class="text-gray-600">
+                        Comprehensive cleaning for homes, apartments, and commercial spaces. Includes lease cleaning, strata cleaning, and regular maintenance.
+                    </p>
+                    <ul class="list-disc list-inside text-left mt-4 text-gray-700">
+                        <li>Lease Cleaning</li>
+                        <li>Commercial Cleaning</li>
+                        <li>Residential Cleaning</li>
+                        <li>Strata Cleaning</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition duration-300">
+                    <svg class="w-16 h-16 text-secondary-orange mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                    <h3 class="text-xl font-semibold text-primary-green mb-3">Specialized Cleaning</h3>
+                    <p class="text-gray-600">
+                        From pre-move cleaning to post-construction cleanup, we handle all your specific cleaning needs with expertise.
+                    </p>
+                    <ul class="list-disc list-inside text-left mt-4 text-gray-700">
+                        <li>Move In / Move Out Cleaning</li>
+                        <li>Floor Polishing (Strip and Seal)</li>
+                        <li>Pressure Cleaning</li>
+                        <li>Carpet Steam Cleaning</li>
+                        <li>After Construction Cleaning</li>
+                        <li>Window Cleaning</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transform hover:scale-105 transition duration-300">
+                    <svg class="w-16 h-16 text-secondary-orange mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14m-4 0a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2H7z"></path></svg>
+                    <h3 class="text-xl font-semibold text-primary-green mb-3">Additional Services</h3>
+                    <p class="text-gray-600">
+                        Beyond cleaning, we offer convenient painting, handyman, and demolition services to complete your project.
+                    </p>
+                    <ul class="list-disc list-inside text-left mt-4 text-gray-700">
+                        <li>Painting</li>
+                        <li>Handyman Service</li>
+                        <li>Demolitions Service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-primary-green text-white py-16 md:py-20 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Experience the Sparkle Difference?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Get in touch today for a free, no-obligation quote tailored to your specific needs.
+            </p>
+            <a href="#" class="btn-book-now text-xl md:text-2xl inline-block px-8 py-4">Request a Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 section-heading mx-auto">Contact Us</h2>
+            <div class="max-w-3xl mx-auto bg-gray-50 rounded-lg shadow-lg p-8 md:p-12">
+                <p class="text-lg text-gray-700 mb-6 text-center">
+                    We're here to help! Reach out to us via phone or email, or fill out the form below.
+                </p>
+                <div class="flex flex-col md:flex-row justify-around items-center mb-8 space-y-6 md:space-y-0">
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold text-primary-green mb-2">Narinder Singh</h3>
+                        <p class="text-gray-700 text-lg">
+                            <a href="tel:+61415444725" class="hover:text-secondary-orange transition duration-300">0415 444 725</a>
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold text-primary-green mb-2">Haresh Patel</h3>
+                        <p class="text-gray-700 text-lg">
+                            <a href="tel:+61468387071" class="hover:text-secondary-orange transition duration-300">0468 387 071</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center mb-8">
+                    <h3 class="text-xl font-semibold text-primary-green mb-2">Email</h3>
+                    <p class="text-gray-700 text-lg">
+                        <a href="mailto:sparklecleaningpro1@gmail.com" class="hover:text-secondary-orange transition duration-300">sparklecleaningpro1@gmail.com</a>
+                    </p>
+                </div>
+
+                <!-- Simple Contact Form (Placeholder - requires backend for full functionality) -->
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Your Name</label>
+                        <input type="text" id="name" name="name" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-secondary-orange focus:border-transparent" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Your Email</label>
+                        <input type="email" id="email" name="email" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-secondary-orange focus:border-transparent" placeholder="john.doe@example.com">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-gray-700 text-sm font-bold mb-2">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-secondary-orange focus:border-transparent" placeholder="04XX XXX XXX">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Your Message / Service Request</label>
+                        <textarea id="message" name="message" rows="5" class="shadow appearance-none border rounded-lg w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-secondary-orange focus:border-transparent" placeholder="I need a quote for residential cleaning..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn-book-now px-8 py-3 text-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section (Placeholder) -->
+    <section id="about" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 section-heading mx-auto">About Sparkle Cleaning Pro Services</h2>
+            <div class="max-w-4xl mx-auto text-lg text-gray-700 leading-relaxed">
+                <p class="mb-4">
+                    Sparkle Cleaning Pro Services is a leading cleaning, painting, and handyman service provider based in Sydney, Australia. With years of experience, we are dedicated to delivering exceptional results and ensuring complete client satisfaction.
+                </p>
+                <p class="mb-4">
+                    Our team of highly skilled and trustworthy professionals uses eco-friendly products and state-of-the-art equipment to provide a superior clean every time. Whether it's a residential property, a commercial establishment, or a post-construction site, we pride ourselves on our attention to detail and commitment to excellence.
+                </p>
+                <p>
+                    We understand the unique needs of our Sydney clients and strive to offer flexible, reliable, and affordable services tailored to your schedule and budget. Your satisfaction is our priority!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-primary-green text-white py-8">
+        <div class="container mx-auto px-4 text-center md:flex md:justify-between md:items-center">
+            <div class="mb-4 md:mb-0">
+                <p>&copy; 2023 Sparkle Cleaning Pro Services. All rights reserved.</p>
+                <p class="text-sm">Based in Sydney, Australia.</p>
+            </div>
+            <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-sm">
+                <a href="#privacy-policy" class="hover:text-secondary-orange transition duration-300">Privacy Policy</a>
+                <a href="#terms-conditions" class="hover:text-secondary-orange transition duration-300">Terms & Conditions</a>
+                <a href="#disclaimer" class="hover:text-secondary-orange transition duration-300">Disclaimer</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Legal Pages (Placeholder Content) -->
+    <section id="privacy-policy" class="hidden py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 section-heading mx-auto">Privacy Policy</h2>
+            <div class="max-w-4xl mx-auto text-lg text-gray-700 leading-relaxed bg-white p-8 rounded-lg shadow-lg">
+                <p class="mb-4">
+                    This Privacy Policy describes how Sparkle Cleaning Pro Services collects, uses, and discloses your personal information when you visit or make a purchase from our website.
+                </p>
+                <h3 class="text-xl font-semibold text-primary-green mb-3">Information We Collect</h3>
+                <p class="mb-4">
+                    When you visit the Site, we collect certain information about your device, your interaction with the Site, and information necessary to process your purchases. We may also collect additional information if you contact us for customer support. In this Privacy Policy, we refer to any information that can uniquely identify an individual (including the information below) as “Personal Information”.
+                </p>
+                <h3 class="text-xl font-semibold text-primary-green mb-3">How We Use Your Information</h3>
+                <p class="mb-4">
+                    We use the information we collect to provide our services to you, which includes: offering products for sale, processing payments, shipping and fulfillment of your order, and keeping you up to date on new products, services, and offers.
+                </p>
+                <h3 class="text-xl font-semibold text-primary-green mb-3">Sharing Your Personal Information</h3>
+                <p class="mb-4">
+                    We share your Personal Information with service providers to help us provide our services and fulfill our contracts with you, as described above. For example, we use a third-party service for website hosting and email communication.
+                </p>
+                <p class="italic">
+                    <strong class="text-red-500">Disclaimer:</strong> This is a placeholder. You must consult with a legal professional to draft a comprehensive Privacy Policy that complies with Australian privacy laws (e.g., the Privacy Act 1988 (Cth) and the Australian Privacy Principles).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="terms-conditions" class="hidden py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 section-heading mx-auto">Terms & Conditions</h2>
+            <div class="max-w-4xl mx-auto text-lg text-gray-700 leading-relaxed bg-white p-8 rounded-lg shadow-lg">
+                <p class="mb-4">
+                    Welcome to Sparkle Cleaning Pro Services. These terms and conditions outline the rules and regulations for the use of Sparkle Cleaning Pro Services' Website.
+                </p>
+                <h3 class="text-xl font-semibold text-primary-green mb-3">Acceptance of Terms</h3>
+                <p class="mb-4">
+                    By accessing this website, we assume you accept these terms and conditions. Do not continue to use Sparkle Cleaning Pro Services if you do not agree to take all of the terms and conditions stated on this page.
+                </p>
+                <h3 class="text-xl font-semibold text-primary-green mb-3">Services</h3>
+                <p class="mb-4">
+                    Sparkle Cleaning Pro Services provides various cleaning, painting, and handyman services as described on this website. All services are subject to availability and our specific service agreements.
+                </p>
+                <h3 class="text-xl font-semibold text-primary-green mb-3">Pricing and Payments</h3>
+                <p class="mb-4">
+                    Pricing for our services will be provided upon request and tailored to your specific needs. Payment terms will be outlined in our service agreement or invoice.
+                </p>
+                <p class="italic">
+                    <strong class="text-red-500">Disclaimer:</strong> This is a placeholder. You must consult with a legal professional to draft comprehensive Terms & Conditions that are specific to your services and comply with Australian consumer law (e.g., Australian Consumer Law under the Competition and Consumer Act 2010 (Cth)).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="disclaimer" class="hidden py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 section-heading mx-auto">Disclaimer</h2>
+            <div class="max-w-4xl mx-auto text-lg text-gray-700 leading-relaxed bg-white p-8 rounded-lg shadow-lg">
+                <p class="mb-4">
+                    The information provided on this website by Sparkle Cleaning Pro Services is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
+                </p>
+                <p class="mb-4">
+                    Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of the site or reliance on any information provided on the site. Your use of the site and your reliance on any information on the site is solely at your own risk.
+                </p>
+                <p class="italic">
+                    <strong class="text-red-500">Disclaimer:</strong> This is a placeholder. A full legal disclaimer should be drafted by a legal professional to ensure it is appropriate for your business and complies with Australian law.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Simple script to show/hide legal sections when clicked from the footer
+        document.addEventListener('DOMContentLoaded', () => {
+            const privacyLink = document.querySelector('a[href="#privacy-policy"]');
+            const termsLink = document.querySelector('a[href="#terms-conditions"]');
+            const disclaimerLink = document.querySelector('a[href="#disclaimer"]');
+
+            const privacySection = document.getElementById('privacy-policy');
+            const termsSection = document.getElementById('terms-conditions');
+            const disclaimerSection = document.getElementById('disclaimer');
+
+            const allSections = [privacySection, termsSection, disclaimerSection];
+
+            function hideAllLegalSections() {
+                allSections.forEach(section => {
+                    if (section) section.classList.add('hidden');
+                });
+            }
+
+            if (privacyLink && privacySection) {
+                privacyLink.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    hideAllLegalSections();
+                    privacySection.classList.remove('hidden');
+                    privacySection.scrollIntoView({ behavior: 'smooth' });
+                });
+            }
+
+            if (termsLink && termsSection) {
+                termsLink.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    hideAllLegalSections();
+                    termsSection.classList.remove('hidden');
+                    termsSection.scrollIntoView({ behavior: 'smooth' });
+                });
+            }
+
+            if (disclaimerLink && disclaimerSection) {
+                disclaimerLink.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    hideAllLegalSections();
+                    disclaimerSection.classList.remove('hidden');
+                    disclaimerSection.scrollIntoView({ behavior: 'smooth' });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
